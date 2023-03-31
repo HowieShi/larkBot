@@ -2,11 +2,11 @@
 飞书app群机器人发消息
 
 # 安装：
-
+```
 git clone https://github.com/HowieShi/larkBot.git
 cd larkBot
 python setup.py install --user
-
+```
 # 使用：
 ```python
 from larkBot.lark_group_bot import LarkBotMsg
