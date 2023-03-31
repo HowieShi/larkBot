@@ -15,8 +15,7 @@ url = "机器人url"
 title = "标题"
 content = "内容"
 w = LarkBotMsg(url) # 初始化
-w.txt_msg(content, at_all=True)
-w.md_msg(title, content, at_all=True)
-
+w.txt_msg(content, at_all=True) # 发送文本消息
+w.md_msg(title, content, at_all=True) # 发送markdown消息
 
 ```
