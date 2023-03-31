@@ -9,7 +9,7 @@ python setup.py install --user
 ```
 # 使用：
 ```python
-from larkBot.lark_group_bot import LarkBotMsg
+from lark_group_bot.lark_bot_msg import LarkBotMsg
 
 url = "机器人url"
 title = "标题"
