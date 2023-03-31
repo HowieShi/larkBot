@@ -15,7 +15,7 @@ python setup.py install --user
 ```python
 from lark_group_bot.lark_bot_msg import LarkBotMsg
 
-url = "机器人url"
+url = "webhook 地址"
 title = "标题"
 content = "内容"
 w = LarkBotMsg(url) # 初始化
