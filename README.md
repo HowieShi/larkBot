@@ -7,12 +7,12 @@
 ```
 git clone https://github.com/HowieShi/larkBot.git
 cd larkBot
-python setup.py install --user
+python setup.py install
 ```
 
 ## 安装方式二：
 ```
-pip install git+https://github.com/HowieShi/larkBot.git  --user
+pip install git+https://github.com/HowieShi/larkBot.git
 ```
 
 # 使用：
