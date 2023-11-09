@@ -98,4 +98,4 @@ class LarkBotMsg:
 
 if __name__ == '__main__':
     t = 'test, 这个是石伟的测试消息'
-    t_df = pd.DataFrame({"col1": [1, 2, 3], "col2": [4, 5, 5], "col3": [4, 5, 5]})
+    data_frame = pd.DataFrame({"col1": [1, 2, 3], "col2": [4, 5, 5], "col3": [4, 5, 5]})

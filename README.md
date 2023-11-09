@@ -26,6 +26,7 @@ from lark_group_bot.lark_bot_msg import LarkBotMsg
 url = "webhook 地址"
 title = "标题"
 content = "内容"
+data_frame = pd.DataFrame({"col1": [1, 2, 3], "col2": [4, 5, 5], "col3": [4, 5, 5]})
 w = LarkBotMsg(url) # 初始化
 w.txt_msg(content, at_all=True) # 发送文本消息
 w.md_msg(title, content, at_all=True) # 发送markdown消息
