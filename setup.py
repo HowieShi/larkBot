@@ -8,7 +8,7 @@ setup(
 
     name="larkBot",
 
-    version="1.0",
+    version="1.1",
 
     author="Howie Shi",
 

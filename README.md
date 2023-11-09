@@ -1,5 +1,5 @@
 # 说明：
-飞书app群机器人发消息
+飞书app群机器人发消息，新增发送pandas数据框的数据
 
 # 安装：
 
@@ -29,4 +29,5 @@ content = "内容"
 w = LarkBotMsg(url) # 初始化
 w.txt_msg(content, at_all=True) # 发送文本消息
 w.md_msg(title, content, at_all=True) # 发送markdown消息
+w.table_msg(title, data_frame, at_all=True) # 发送pandas数据框消息
 ```
